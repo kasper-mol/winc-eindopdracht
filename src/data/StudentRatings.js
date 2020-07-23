@@ -1,4 +1,4 @@
-const feedbackForms = [
+export const feedbackForms = [
     {
         name: "Evelyn",
         assignment: "SCRUM",
@@ -67,7 +67,7 @@ const feedbackForms = [
     },
     {
         name: "Evelyn",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 5,
         fun: 5
     },
@@ -79,13 +79,13 @@ const feedbackForms = [
     },
     {
         name: "Evelyn",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 3,
         fun: 4
     },
     {
         name: "Evelyn",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 3,
         fun: 3
     },
@@ -157,7 +157,7 @@ const feedbackForms = [
     },
     {
         name: "Evelyn",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 3,
         fun: 4
     },
@@ -241,7 +241,7 @@ const feedbackForms = [
     },
     {
         name: "Evelyn",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 2,
         fun: 5
     },
@@ -301,7 +301,7 @@ const feedbackForms = [
     },
     {
         name: "Evelyn",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 1,
         fun: 5
     },
@@ -313,7 +313,7 @@ const feedbackForms = [
     },
     {
         name: "Evelyn",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 4,
         fun: 3
     },
@@ -331,7 +331,7 @@ const feedbackForms = [
     },
     {
         name: "Evelyn",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 5,
         fun: 5
     },
@@ -403,7 +403,7 @@ const feedbackForms = [
     },
     {
         name: "Aranka",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 2,
         fun: 3
     },
@@ -415,13 +415,13 @@ const feedbackForms = [
     },
     {
         name: "Aranka",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 4,
         fun: 3
     },
     {
         name: "Aranka",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 4,
         fun: 1
     },
@@ -493,7 +493,7 @@ const feedbackForms = [
     },
     {
         name: "Aranka",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 2,
         fun: 2
     },
@@ -577,7 +577,7 @@ const feedbackForms = [
     },
     {
         name: "Aranka",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 1,
         fun: 1
     },
@@ -637,7 +637,7 @@ const feedbackForms = [
     },
     {
         name: "Aranka",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 4,
         fun: 4
     },
@@ -649,7 +649,7 @@ const feedbackForms = [
     },
     {
         name: "Aranka",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 3,
         fun: 2
     },
@@ -667,7 +667,7 @@ const feedbackForms = [
     },
     {
         name: "Aranka",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 3,
         fun: 4
     },
@@ -739,7 +739,7 @@ const feedbackForms = [
     },
     {
         name: "Floris",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 2,
         fun: 2
     },
@@ -751,13 +751,13 @@ const feedbackForms = [
     },
     {
         name: "Floris",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 4,
         fun: 3
     },
     {
         name: "Floris",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 4,
         fun: 4
     },
@@ -829,7 +829,7 @@ const feedbackForms = [
     },
     {
         name: "Floris",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 4,
         fun: 1
     },
@@ -913,7 +913,7 @@ const feedbackForms = [
     },
     {
         name: "Floris",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 4,
         fun: 2
     },
@@ -973,7 +973,7 @@ const feedbackForms = [
     },
     {
         name: "Floris",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 2,
         fun: 2
     },
@@ -985,7 +985,7 @@ const feedbackForms = [
     },
     {
         name: "Floris",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 3,
         fun: 1
     },
@@ -1003,7 +1003,7 @@ const feedbackForms = [
     },
     {
         name: "Floris",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 4,
         fun: 1
     },
@@ -1075,7 +1075,7 @@ const feedbackForms = [
     },
     {
         name: "Hector",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 3,
         fun: 1
     },
@@ -1087,13 +1087,13 @@ const feedbackForms = [
     },
     {
         name: "Hector",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 1,
         fun: 3
     },
     {
         name: "Hector",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 2,
         fun: 4
     },
@@ -1165,7 +1165,7 @@ const feedbackForms = [
     },
     {
         name: "Hector",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 4,
         fun: 1
     },
@@ -1249,7 +1249,7 @@ const feedbackForms = [
     },
     {
         name: "Hector",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 2,
         fun: 4
     },
@@ -1309,7 +1309,7 @@ const feedbackForms = [
     },
     {
         name: "Hector",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 3,
         fun: 1
     },
@@ -1321,7 +1321,7 @@ const feedbackForms = [
     },
     {
         name: "Hector",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 3,
         fun: 1
     },
@@ -1339,7 +1339,7 @@ const feedbackForms = [
     },
     {
         name: "Hector",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 2,
         fun: 4
     },
@@ -1411,7 +1411,7 @@ const feedbackForms = [
     },
     {
         name: "Martina",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 2,
         fun: 2
     },
@@ -1423,13 +1423,13 @@ const feedbackForms = [
     },
     {
         name: "Martina",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 1,
         fun: 3
     },
     {
         name: "Martina",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 1,
         fun: 4
     },
@@ -1501,7 +1501,7 @@ const feedbackForms = [
     },
     {
         name: "Martina",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 2,
         fun: 4
     },
@@ -1585,7 +1585,7 @@ const feedbackForms = [
     },
     {
         name: "Martina",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 2,
         fun: 3
     },
@@ -1645,7 +1645,7 @@ const feedbackForms = [
     },
     {
         name: "Martina",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 3,
         fun: 4
     },
@@ -1657,7 +1657,7 @@ const feedbackForms = [
     },
     {
         name: "Martina",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 1,
         fun: 1
     },
@@ -1675,7 +1675,7 @@ const feedbackForms = [
     },
     {
         name: "Martina",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 1,
         fun: 4
     },
@@ -1747,7 +1747,7 @@ const feedbackForms = [
     },
     {
         name: "Maurits",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 1,
         fun: 1
     },
@@ -1759,13 +1759,13 @@ const feedbackForms = [
     },
     {
         name: "Maurits",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 4,
         fun: 1
     },
     {
         name: "Maurits",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 3,
         fun: 2
     },
@@ -1837,7 +1837,7 @@ const feedbackForms = [
     },
     {
         name: "Maurits",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 3,
         fun: 1
     },
@@ -1921,7 +1921,7 @@ const feedbackForms = [
     },
     {
         name: "Maurits",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 3,
         fun: 4
     },
@@ -1981,7 +1981,7 @@ const feedbackForms = [
     },
     {
         name: "Maurits",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 2,
         fun: 3
     },
@@ -1993,7 +1993,7 @@ const feedbackForms = [
     },
     {
         name: "Maurits",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 4,
         fun: 2
     },
@@ -2011,7 +2011,7 @@ const feedbackForms = [
     },
     {
         name: "Maurits",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 3,
         fun: 3
     },
@@ -2083,7 +2083,7 @@ const feedbackForms = [
     },
     {
         name: "Rahima",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 3,
         fun: 1
     },
@@ -2095,13 +2095,13 @@ const feedbackForms = [
     },
     {
         name: "Rahima",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 2,
         fun: 4
     },
     {
         name: "Rahima",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 3,
         fun: 3
     },
@@ -2173,7 +2173,7 @@ const feedbackForms = [
     },
     {
         name: "Rahima",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 3,
         fun: 1
     },
@@ -2257,7 +2257,7 @@ const feedbackForms = [
     },
     {
         name: "Rahima",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 2,
         fun: 4
     },
@@ -2317,7 +2317,7 @@ const feedbackForms = [
     },
     {
         name: "Rahima",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 1,
         fun: 2
     },
@@ -2329,7 +2329,7 @@ const feedbackForms = [
     },
     {
         name: "Rahima",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 2,
         fun: 3
     },
@@ -2347,7 +2347,7 @@ const feedbackForms = [
     },
     {
         name: "Rahima",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 4,
         fun: 1
     },
@@ -2419,7 +2419,7 @@ const feedbackForms = [
     },
     {
         name: "Sandra",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 2,
         fun: 4
     },
@@ -2431,13 +2431,13 @@ const feedbackForms = [
     },
     {
         name: "Sandra",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 1,
         fun: 3
     },
     {
         name: "Sandra",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 3,
         fun: 3
     },
@@ -2509,7 +2509,7 @@ const feedbackForms = [
     },
     {
         name: "Sandra",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 2,
         fun: 4
     },
@@ -2593,7 +2593,7 @@ const feedbackForms = [
     },
     {
         name: "Sandra",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 1,
         fun: 2
     },
@@ -2653,7 +2653,7 @@ const feedbackForms = [
     },
     {
         name: "Sandra",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 3,
         fun: 4
     },
@@ -2665,7 +2665,7 @@ const feedbackForms = [
     },
     {
         name: "Sandra",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 2,
         fun: 2
     },
@@ -2683,7 +2683,7 @@ const feedbackForms = [
     },
     {
         name: "Sandra",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 4,
         fun: 1
     },
@@ -2755,7 +2755,7 @@ const feedbackForms = [
     },
     {
         name: "Wietske",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 2,
         fun: 4
     },
@@ -2767,13 +2767,13 @@ const feedbackForms = [
     },
     {
         name: "Wietske",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 2,
         fun: 3
     },
     {
         name: "Wietske",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 3,
         fun: 3
     },
@@ -2845,7 +2845,7 @@ const feedbackForms = [
     },
     {
         name: "Wietske",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 2,
         fun: 2
     },
@@ -2929,7 +2929,7 @@ const feedbackForms = [
     },
     {
         name: "Wietske",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 2,
         fun: 4
     },
@@ -2989,7 +2989,7 @@ const feedbackForms = [
     },
     {
         name: "Wietske",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 4,
         fun: 2
     },
@@ -3001,7 +3001,7 @@ const feedbackForms = [
     },
     {
         name: "Wietske",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 4,
         fun: 2
     },
@@ -3019,7 +3019,7 @@ const feedbackForms = [
     },
     {
         name: "Wietske",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 1,
         fun: 2
     },
@@ -3091,7 +3091,7 @@ const feedbackForms = [
     },
     {
         name: "Storm",
-        assignment: "W1D3 - Project - Guess-the-number",
+        assignment: "W1D3",
         difficult: 3,
         fun: 4
     },
@@ -3103,13 +3103,13 @@ const feedbackForms = [
     },
     {
         name: "Storm",
-        assignment: "W1D4 - Project - Kleurentoggle",
+        assignment: "W1D4",
         difficult: 3,
         fun: 2
     },
     {
         name: "Storm",
-        assignment: "W1D5 - Project - Galgje",
+        assignment: "W1D5",
         difficult: 4,
         fun: 4
     },
@@ -3181,7 +3181,7 @@ const feedbackForms = [
     },
     {
         name: "Storm",
-        assignment: "W2D5 - Project - Filmzoeker",
+        assignment: "W2D5",
         difficult: 4,
         fun: 1
     },
@@ -3265,7 +3265,7 @@ const feedbackForms = [
     },
     {
         name: "Storm",
-        assignment: "W3D5 - Project - Todo-List",
+        assignment: "W3D5",
         difficult: 3,
         fun: 2
     },
@@ -3325,7 +3325,7 @@ const feedbackForms = [
     },
     {
         name: "Storm",
-        assignment: "W4D3 - Project - Next-Level CSS",
+        assignment: "W4D3",
         difficult: 4,
         fun: 1
     },
@@ -3337,7 +3337,7 @@ const feedbackForms = [
     },
     {
         name: "Storm",
-        assignment: "W5D5 - Project - Lil_Playlist",
+        assignment: "W5D5",
         difficult: 1,
         fun: 2
     },
@@ -3355,7 +3355,7 @@ const feedbackForms = [
     },
     {
         name: "Storm",
-        assignment: "W6D2 - Project - Eindopdracht",
+        assignment: "W6D2",
         difficult: 3,
         fun: 3
     }
