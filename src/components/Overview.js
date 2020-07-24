@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import GraphOverview from './OverviewGraph'
+import OverviewGraph from './OverviewGraph'
 import * as FormData from '../data/StudentRatings'
 import LineGraph from './LineGraph'
+import OverviewInfo from './OverviewInfo'
 
 
 function Overview(props) {
@@ -53,14 +54,17 @@ function Overview(props) {
     const [averageDifficult, setAverageDifficult] = useState(difficultArray)
 
 
-    const [reviews, setReviews] = useState(FormData.feedbackForms)
-
     return (
         <div>
-            <h3>Overview</h3>
-            <GraphOverview assignments={assignments} averageDifficult={averageDifficult} averageFun={averageFun} />
-            <p>place holder for the graphs</p>
-            <LineGraph assignments={assignments} averageDifficult={averageDifficult} averageFun={averageFun} />
+            <div id='overview'>
+                <OverviewInfo assignments={assignments} reviews={FormData.feedbackForms} />
+            </div>
+            <div id="graphcontainer">
+
+                <OverviewGraph assignments={assignments} averageDifficult={averageDifficult} averageFun={averageFun} />
+
+                <LineGraph assignments={assignments} averageDifficult={averageDifficult} averageFun={averageFun} />
+            </div>
         </div>
     );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { VictoryBar, VictoryChart, VictoryAxis, VictoryGroup, VictoryLegend } from 'victory';
+import { VictoryBar, VictoryChart, VictoryAxis, VictoryGroup, VictoryZoomContainer } from 'victory';
 
 function StudentGraph(props) {
     const studentData = props.studentData
@@ -10,22 +10,25 @@ function StudentGraph(props) {
         return allAssignments.map(a => a.assignment)
     }
     const assignmentNames = getUniqueListBy(studentData, 'assignment')
-
     return (
-        <div>
-            <h3>Graph placeholder</h3>
+        <div className="studentgraph" >
+
             <VictoryChart
-                // domainPadding will add space to each side of VictoryBar to
-                // prevent it from overlapping the axis
                 domainPadding={20}
+                containerComponent={
+                    <VictoryZoomContainer
+                        allowPan={true}
+                    />
+                }
             >
+
                 <VictoryAxis
                     style={{ tickLabels: { fontSize: 5, paddingLeft: 15, writingMode: 'vertical-rl' } }}
                     // tickValues specifies both the number of ticks and where
                     // they are placed on the axis
                     tickValues={assignmentNames}
 
-                    tickFormat={assignmentNames}
+
                 />
                 <VictoryAxis
                     dependentAxis
@@ -34,30 +37,27 @@ function StudentGraph(props) {
                     tickFormat={[1, 2, 3, 4, 5]}
                 />
                 <VictoryGroup offset={3} >
-                    <VictoryBar color={'red'}
+                    <VictoryBar color={"#bbf0c9"}
                         data={studentData}
                         x="assignment"
                         y="fun"
                     />
 
-                    <VictoryBar color={'green'}
+                    <VictoryBar color={'#f2c4a2'}
                         data={studentData}
                         x="assignment"
                         y="difficult"
                     />
 
                 </VictoryGroup>
-                <VictoryLegend x={125} y={100}
-                    orientation="horizontal"
-                    gutter={20}
-                    style={{ border: { stroke: "black" } }}
-                    colorScale={["red", "green"]}
-                    data={[
-                        { name: "Moeilijk" }, { name: "Leuk" }
-                    ]}
-                />
-            </VictoryChart>
 
+            </VictoryChart>
+            <div className="legendacontainer">
+                <div className="legendaboxleuk"></div>
+                <p>Leuk</p>
+                <div className="legendaboxmoeilijk"></div>
+                <p>Moeilijk</p>
+            </div>
         </div>
     );
 }
