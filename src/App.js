@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Nav from './Nav'
+
 import * as FormData from './data/StudentRatings'
 import Overview from './components/Overview'
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
